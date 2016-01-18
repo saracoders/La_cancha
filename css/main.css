@@ -1,0 +1,58 @@
+/* Inserta tu CSS aqui */
+.grass {
+	width: 1000px;
+	height: 600px;
+	background: #77A878;
+	margin: auto;
+	padding: 20px;
+}
+
+.cancha {
+	width: 1000px;
+	height: 600px;
+	position: relative;
+}
+
+.arco1, .arco2 {
+	width: 150px;
+	height: 200px;
+}
+
+.arco1, .arco2, .centro {
+	top:200px;
+}
+
+.arco2{
+	right: 0px;
+}
+
+.centro {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	left: 400px;
+}
+
+.linea {
+	border: 2px white solid;
+	position: absolute;
+}
+
+.bola1, .bola2, .bola3 {
+	position: absolute;
+}
+
+.bola1{
+	top: 207px;
+  left: 140px;
+}
+
+.bola2 {
+  top: 100px;
+  left: 550px;
+}
+
+.bola3{
+	bottom: 210px;
+   right: 210px;
+}
